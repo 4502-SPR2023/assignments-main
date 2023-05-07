@@ -62,18 +62,6 @@ main {
 }
 
 
-.firstcharacter {
-  color: #8e6c88;
-  float: left;
-    font-family: 'PT Sans', sans-serif;
-  font-size: 3rem;
-  line-height: 2rem;
-  padding-top: .5rem;
-  padding-right: .5rem;
-  padding-left: .5rem;
-}
-
-
 h1 {
   color: black;
   font-size: 25px;
@@ -145,15 +133,7 @@ a:active {
   margin-top: 1rem;
 }
 
-button {
-  background-color: #8e6c88;
-  border-color: lightgray;
-  min-width: 5rem;
-  border-radius: 5pt;
-  color:  white;
-  font-weight: bold;
-  font-family: 'Roboto Slab', serif;
-}
+
 
 .gallery-image {
   margin-block-start: 0;
@@ -222,6 +202,27 @@ html.sr  .load-hidden {
     width: 70%;
   }
 
+.firstcharacter {
+  color: #8e6c88;
+  float: left;
+    font-family: 'PT Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 2rem;
+  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+button {
+    background-color: #8e6c88;
+    border-color: lightgray;
+    min-width: 5rem;
+    border-radius: 5pt;
+    color:  white;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+  }
+  
   nav ul {
     display: flex;
     flex-direction: row;
@@ -259,7 +260,28 @@ html.sr  .load-hidden {
   body {
       background-color: #6fa8dc;
     }
+
+    .firstcharacter {
+  color: #6fa8dc;
+  float: left;
+    font-family: 'PT Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 2rem;
+  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
   
+  button {
+    background-color: #6fa8dc;
+    border-color: lightgray;
+    min-width: 5rem;
+    border-radius: 5pt;
+    color:  white;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+  }
+
   footer {
     background-color: #c6e2ff;
   }
@@ -283,6 +305,26 @@ html.sr  .load-hidden {
     flex-wrap: wrap;
   }
 
+.firstcharacter {
+  color: #bb5865;
+  float: left;
+    font-family: 'PT Sans', sans-serif;
+  font-size: 3rem;
+  line-height: 2rem;
+  padding-top: .5rem;
+  padding-right: .5rem;
+  padding-left: .5rem;
+}
+
+ button {
+    background-color: #bb5865;
+    border-color: lightgray;
+    min-width: 5rem;
+    border-radius: 5pt;
+    color:  white;
+    font-weight: bold;
+    font-family: 'Roboto Slab', serif;
+  }
 
   nav li 
   {
@@ -290,7 +332,7 @@ html.sr  .load-hidden {
     width: 30%;
   }
   .image-holder {
-  width:500px;
+  width:300px;
   align-content: left;
 }
 
@@ -299,7 +341,7 @@ html.sr  .load-hidden {
 }
 
 .media-list .text-holder {
-  width: 30%;
+  width: 80%;
 }
 
 .email {
